@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bg"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="113.5dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="City"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCity"
+            android:gravity="left"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:text="Date &amp; Time:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTime"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:text="Current Temperature"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="60.0dp"
+            android:id="@+id/txtCTemp"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="206.0dp"
+        android:id="@+id/linear5days">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37.0dp"
+            android:id="@+id/linearDay1">
+            <TextView
+                android:text="Day 1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtDay1"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:text="Temperature"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtTemp1"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="49.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/img1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37.0dp"
+            android:id="@+id/linearDay2">
+            <TextView
+                android:text="Day 2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtDay2"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:text="Temperature"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtTemp2"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="46.5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/img2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37.0dp"
+            android:id="@+id/linearDay3">
+            <TextView
+                android:text="Day 3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtDay3"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:text="Temperature"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtTemp3"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="71.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/img3" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37.0dp"
+            android:id="@+id/linearDay4">
+            <TextView
+                android:text="Day 4"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtDay4"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:text="Temperature"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtTemp4"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="66.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/img4" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37.0dp"
+            android:id="@+id/linearDay5">
+            <TextView
+                android:text="Day 5"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtDay5"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:text="Temperature"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/txtTemp5"
+                android:gravity="bottom"
+                android:textColor="@android:color/white" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="64.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/img5" />
+        </LinearLayout>
+    </LinearLayout>
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="45.0dp"
+        android:id="@+id/txtSearch"
+        android:hint="Enter Location"
+        android:textColor="@android:color/white" />
+    <Button
+        android:text="Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConfirm"
+        android:textColor="@android:color/white" />
+</LinearLayout>
